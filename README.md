@@ -1,10 +1,8 @@
 # COMP 551: Applied Machine Learning
 This repository serves for the final assignment of Joelle Pineau's ML course at McGill University, Winter 2017.
 
-## "Why Should I Trust You?": Explaining the Predictions of Any Classifier
+## ["Why Should I Trust You?": Explaining the Predictions of Any Classifier](https://arxiv.org/abs/1602.04938)
 Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin
-
-[arXiv link](https://arxiv.org/abs/1602.04938)
 
 ## Dependencies
 ### Modules
