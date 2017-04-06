@@ -8,21 +8,21 @@ Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin
 
 ## Dependencies
 ### Modules
-* tensorflow (1.0.0-rc2)
-* lime (latest build)
-* numpy (1.12.1)
-* scikit-image (0.13.0)
+* [tensorflow](https://www.tensorflow.org/versions/r0.10/get_started/os_setup) (1.0.0-rc2)
+* [lime](https://github.com/marcotcr/lime) (latest build)
+* [numpy](https://www.scipy.org/scipylib/download.html) (1.12.1)
+* [scikit-image](http://scikit-image.org/download.html) (0.13.0)
 
 ### TensorFlow Models
 Within the project, run:
 ```sh
-git clone https://github.com/tensorflow/models
+$ git clone https://github.com/tensorflow/models
 ```
 To download weights for pretrained ConvNets (e.g. Inception v3), run:
 ```sh
-cd models/slim 
-mkdir pretrained && cd $_
-wget http://download.tensorflow.org/models/inception_v3_2016_08_28.tar.gz
-tar -xvf inception_v3_2016_08_28.tar.gz
-rm inception_v3_2016_08_28.tar.gz
+$ cd models/slim 
+$ mkdir pretrained && cd $_
+$ wget http://download.tensorflow.org/models/inception_v3_2016_08_28.tar.gz
+$ tar -xvf inception_v3_2016_08_28.tar.gz
+$ rm inception_v3_2016_08_28.tar.gz
 ```
