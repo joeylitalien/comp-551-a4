@@ -1,20 +1,19 @@
 # COMP 551: Applied Machine Learning
-## Project 4
 This repository serves for the final assignment of Joelle Pineau's ML course at McGill University, Winter 2017.
 
-### "Why Should I Trust You?": Explaining the Predictions of Any Classifier
+## "Why Should I Trust You?": Explaining the Predictions of Any Classifier
 Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin
 
 [arXiv link](https://arxiv.org/abs/1602.04938)
 
-### Dependencies
-#### Modules
+## Dependencies
+### Modules
 * tensorflow (1.0.0-rc2)
 * lime (latest build)
 * numpy (1.12.1)
 * scikit-image (0.13.0)
 
-#### TensorFlow Models
+### TensorFlow Models
 Within the project, run:
 ```sh
 git clone https://github.com/tensorflow/models
